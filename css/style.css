@@ -31,13 +31,13 @@ a {
   -webkit-transition: color 0.2s ease-out;
   -moz-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
-  color:  rgb(205, 205, 205);
+  color: rgb(150, 0, 0);
   text-decoration: underline;
   text-decoration-color: rgb(150, 0, 0);
 }
 
 a:hover {
-  color: rgb(150, 0, 0);
+  color: rgb(205, 205, 205);
 }
 
 h1 {
@@ -85,6 +85,16 @@ main .column.right h1 {
 
 main .column.right h2 {
   margin-top: 0;
+}
+
+main .column.right .links {
+  margin-top: 1.5rem;
+  font-size: 1.75rem;
+}
+
+main .column.right .links a {
+  margin-right: 0.5rem;
+  text-decoration: none;
 }
 
 footer {
