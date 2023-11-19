@@ -71,6 +71,14 @@ main .column.left {
   font-size: 10rem;
 }
 
+.hero {
+  background: url(../images/scorpion.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 250px;
+}
+
 main .column.right h1 {
   margin-bottom: 0.4em;
 }
@@ -89,6 +97,7 @@ footer {
 @media screen and (max-width: 992px) {
   body {
     margin: 0rem 1rem;
+    text-align: center;
   }
 
   main {
